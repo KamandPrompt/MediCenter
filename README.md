@@ -14,7 +14,7 @@ Install MongoDB from [here](https://www.digitalocean.com/community/tutorials/how
 
 Fork this repo and clone it
 ```bash
-$ git clone https://github.com/<Your User Name>/search_guru.git
+$ git clone https://github.com/<Your User Name>/MediCenter.git
 ```
 
 Run this commmand in both the folders medicenter and client to install the dependencies
@@ -24,7 +24,7 @@ $ npm install
 
 Run the application
 ```bash
-# In the search_guru folder
+# In the MediCenter folder
 $ nodemon
 
 # Inside the client folder
