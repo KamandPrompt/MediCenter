@@ -1,0 +1,18 @@
+{
+  "name": "medicenter",
+  "version": "1.0.0",
+  "description": "A MEAN Stack online platform to help provide medical facilities and knowledge online.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kamandPrompt",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.2"
+  }
+}
