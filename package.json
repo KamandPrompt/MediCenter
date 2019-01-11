@@ -4,6 +4,7 @@
   "description": "A MEAN Stack online platform to help provide medical facilities and knowledge online.",
   "main": "app.js",
   "scripts": {
+    "start": "node lib/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kamandPrompt",
