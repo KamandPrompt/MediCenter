@@ -11,5 +11,4 @@ router.get('/api', (req, res, next) => {
     res.json("API Working!!");
 });
 
-
 module.exports = router;
