@@ -6,29 +6,36 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import { MynavComponent } from './mynav/mynav.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule, MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/material';
+import { MatToolbarModule, MatSidenavModule, MatIconModule, MatListModule,
+MatGridListModule, MatCardModule, MatMenuModule, MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/material';
 import { MydashComponent } from './mydash/mydash.component';
-import { MytableComponent } from './mytable/mytable.component';
 import {MatSelectModule} from '@angular/material/select';
+import { HomeComponent } from './home/home.component';
+import { ConsultComponent } from './consult/consult.component';
+import { SignupComponent } from './signup/signup.component';
+import { SigninComponent } from './signin/signin.component';
 @NgModule({
   declarations: [
     AppComponent,
     MynavComponent,
     MydashComponent,
-    MytableComponent
+    HomeComponent,
+    ConsultComponent,
+    SignupComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule, 
+    MatButtonModule,
     MatSelectModule,
     LayoutModule,
     MatToolbarModule,
-    MatSidenavModule, 
-    MatIconModule, 
-    MatListModule, 
-    MatGridListModule, 
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatGridListModule,
     MatCardModule, MatMenuModule,
     MatTableModule,
     MatPaginatorModule,

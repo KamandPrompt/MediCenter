@@ -3,7 +3,7 @@ import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 
 @Component({
-  selector: 'my-dash',
+  selector: 'app-dash',
   templateUrl: './mydash.component.html',
   styleUrls: ['./mydash.component.scss']
 })
